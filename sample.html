@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<head>
+<meta charset=Shift_JIS">
+<title>スライダーのサンプル</title>
+</head>
+<html>
+<body>
+<form name="form1">
+<input type="range" name="slider"value="50" min="0" max="100">
+<br>
+<input type="button" value="表示" onClick="showSlider()">
+</form>
+<script>
+	//スライダーの値を表示
+	function showSlider(){
+		//アラートボックスでスライダーの値を表示
+		alert("スライダーの値:"+document.form1.slider.value);
+	}
+</script>
+</body>
+</html>
